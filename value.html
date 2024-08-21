@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="./submit.html">
+        <!-- username -->
+        <label for="username">Name: </label>
+        <input type="text" id="username" name="username" minlength="3" maxlength="20" title="Username should contain more than 3 characters" pattern="[a-zA-Z0-9]{3,16}"><br><br>
+        <!-- email -->
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required><br><br>
+        <!-- password -->
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required><br><br>
+        <!-- mobile number -->
+        <label for="mobileNo">Mobile Number: </label>
+        <input type="tel" id="mobileNo" name="mobileNo" required>
+
+        <hr>
+
+        <input type="submit">
+
+
+
+    </form>
+
+
+
+</body>
+
+</html>

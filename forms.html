@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="./index.html" method="post">
+       Name: <input readonly value="Karunkar" type="text" name="username" id="username" minlength="3" maxlength="16" pattern="[a-zA-Z]{3,16}" title="minimum length is 3 and max is 16" required><br><br>
+       Email: <input disabled value="karun@gmail.com" type="email" name="email" id="email" required><br><br>
+       Password: <input type="password" name="password" id="password" required><br><br>
+       Mobile Number: <input type="tel" name="telephone" id="telephone" required><br><br>
+    
+       <input type="radio" name="gender" value="male">Male
+       <input type="radio" name="gender" value="female">Female
+       <input type="radio" name="gender" value="others">Others
+
+        <input type="submit">
+        <input type="button" value="button">
+    </form>
+</body>
+
+</html>
